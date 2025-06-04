@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>University Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Uni-Verse</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="universities.html">Universities</a> |
+    <a href="scholarship.html">Scholarships</a> |
+    <a href="tips.html">Application tips</a> |
+    <a href="credits.html">Credits</a>
+  </nav>
+
+  <!-- Local Opportunities Section -->
+  <section id="local-section">
+    <h2>🇸🇿 Local & Regional Opportunities for Eswatini Youth</h2>
+    <div class="highlight-box">
+      <h3>University of Eswatini (UNESWA)</h3>
+      <p><strong>Location:</strong> Kwaluseni & Luyengo, Eswatini</p>
+      <p><strong>Programs:</strong> Agriculture, Education, Business, Engineering, Health Sciences</p>
+      <p><strong>Why Choose UNESWA:</strong> Stay close to home, lower costs, quality education recognized regionally
+      </p>
+      <a href="https://www.uneswa.sz" target="_blank">Visit UNESWA</a>
+    </div>
+
+    <div class="highlight-box">
+      <h3>💡 Quick Tips for Eswatini Students</h3>
+      <ul>
+        <li>Start applications early - many deadlines are 6-12 months before start dates</li>
+        <li>Commonwealth scholarships are excellent for UK universities</li>
+        <li>Consider South African universities for quality education at lower costs</li>
+        <li>SADC scholarships available for regional universities</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Quick Stats -->
+  <div class="stats-bar">
+    <div class="stats-row">
+      <div class="stat-item">
+        <span class="stat-number" id="total-universities">0</span>
+        <span class="stat-label">Total Universities</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="local-count">0</span>
+        <span class="stat-label">Local & Regional</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="international-count">0</span>
+        <span class="stat-label">International</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search and Filters -->
+  <div class="filter-section">
+    <input type="text" id="search" placeholder="Search universities by name, country, or programs...">
+
+    <div class="filter-row">
+      <div class="filter-group">
+        <label for="country-filter">Filter by Region:</label>
+        <select id="country-filter">
+          <option value="">All Regions</option>
+          <option value="local">Local (Eswatini)</option>
+          <option value="regional">Regional (Africa)</option>
+          <option value="international">International</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="tuition-filter">Tuition Range:</label>
+        <select id="tuition-filter">
+          <option value="">All Ranges</option>
+          <option value="low">Low Cost (Under $5,000)</option>
+          <option value="medium">Medium Cost ($5,000-$20,000)</option>
+          <option value="high">High Cost ($20,000+)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sort-section">
+      <label for="sort-select">Sort by:</label>
+      <select id="sort-select">
+        <option value="relevance">Relevance</option>
+        <option value="alphabetical">Alphabetical</option>
+        <option value="cost-low">Cost: Low to High</option>
+        <option value="local-first">Local First</option>
+      </select>
+    </div>
+  </div>
+
+  <h2>Global Universities</h2>
+  <div id="university-list"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

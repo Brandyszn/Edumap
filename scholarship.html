@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Scholarships - University Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Scholarships</h1>
+  <nav>
+    <a href="home.html">Home</a> |
+    <a href="index.html">Universities</a> |
+    <a href="scholarship.html">Scholarships</a> |
+    <a href="tips.html">Application tips</a> |
+    <a href="credits.html">Credits</a>
+  </nav>
+  
+  <!-- Quick Stats -->
+  <div class="stats-bar">
+    <div class="stats-row">
+      <div class="stat-item">
+        <span class="stat-number" id="total-scholarships">0</span>
+        <span class="stat-label">Total Scholarships</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="local-count">0</span>
+        <span class="stat-label">Local & Regional</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" id="international-count">0</span>
+        <span class="stat-label">International</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search and Filters -->
+  <div class="filter-section">
+    <input type="text" id="search" placeholder="Search scholarships by name, country, or eligibility...">
+    
+    <div class="filter-row">
+      <div class="filter-group">
+        <label for="country-filter">Filter by Region:</label>
+        <select id="country-filter">
+          <option value="">All Regions</option>
+          <option value="local">Local (Eswatini)</option>
+          <option value="regional">Regional (SADC)</option>
+          <option value="international">International</option>
+        </select>
+      </div>
+      
+      <div class="filter-group">
+        <label for="value-filter">Scholarship Value:</label>
+        <select id="value-filter">
+          <option value="">All Values</option>
+          <option value="full">Full Scholarships</option>
+          <option value="partial">Partial Scholarships</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="sort-section">
+      <label for="sort-select">Sort by:</label>
+      <select id="sort-select">
+        <option value="relevance">Relevance</option>
+        <option value="alphabetical">Alphabetical</option>
+        <option value="local-first">Local First</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="scholarship-list"></div>
+
+  <script src="scholarship.js"></script>
+</body>
+</html>
