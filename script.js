@@ -7,7 +7,21 @@ const universityData = [
     tuition: "USD 850-1,400",
     website: "https://www.uneswa.sz"
   },
-  
+  {
+    name: "Eswatini College of Technology",
+    country: "Eswatini",
+    programs: ["Engineering", "Information Technology", "Applied Sciences"],
+    tuition: "USD 600-1,200",
+    website: "https://www.ecot.sz"
+  },
+  {
+    name: "Manzini Institute of Technology",
+    country: "Eswatini",
+    programs: ["Business", "Hospitality", "Engineering"],
+    tuition: "USD 500-1,000",
+    website: "https://www.manzini.edu.sz"
+  },
+
   // Regional African Universities
   {
     name: "University of Cape Town",
@@ -31,11 +45,32 @@ const universityData = [
     website: "https://www.sun.ac.za"
   },
   {
+    name: "University of Pretoria",
+    country: "South Africa",
+    programs: ["Law", "Engineering", "Business", "Medicine"],
+    tuition: "USD 3,500-6,000",
+    website: "https://www.up.ac.za"
+  },
+  {
     name: "University of Botswana",
     country: "Botswana",
     programs: ["Tourism", "Computer Science", "Agriculture", "Education"],
     tuition: "USD 3,000-4,500",
     website: "https://www.ub.bw"
+  },
+  {
+    name: "University of Zambia",
+    country: "Zambia",
+    programs: ["Mining Engineering", "Medicine", "Agriculture"],
+    tuition: "USD 1,500-3,500",
+    website: "https://www.unza.zm"
+  },
+  {
+    name: "University of Malawi",
+    country: "Malawi",
+    programs: ["Education", "Health Sciences", "Agriculture"],
+    tuition: "USD 1,200-2,500",
+    website: "https://www.unima.mw"
   },
   {
     name: "University of Nairobi",
@@ -52,13 +87,27 @@ const universityData = [
     website: "https://www.mak.ac.ug"
   },
   {
+    name: "Addis Ababa University",
+    country: "Ethiopia",
+    programs: ["Public Health", "Engineering", "Humanities"],
+    tuition: "USD 900-2,000",
+    website: "https://www.aau.edu.et"
+  },
+  {
     name: "University of Ghana",
     country: "Ghana",
     programs: ["Sociology", "Political Science", "Business", "Medicine"],
     tuition: "USD 2,000-3,000",
     website: "https://www.ug.edu.gh"
   },
-  
+  {
+    name: "University of Zimbabwe",
+    country: "Zimbabwe",
+    programs: ["Medicine", "Law", "Agriculture", "Engineering"],
+    tuition: "USD 1,200-2,800",
+    website: "https://www.uz.ac.zw"
+  },
+
   // International Universities - USA
   {
     name: "Harvard University",
@@ -81,7 +130,21 @@ const universityData = [
     tuition: "USD 56,000-75,000",
     website: "https://www.stanford.edu"
   },
-  
+  {
+    name: "University of California, Berkeley",
+    country: "USA",
+    programs: ["Engineering", "Computer Science", "Environmental Sciences"],
+    tuition: "USD 40,000-60,000",
+    website: "https://www.berkeley.edu"
+  },
+  {
+    name: "Yale University",
+    country: "USA",
+    programs: ["Law", "Arts & Sciences", "Medicine"],
+    tuition: "USD 50,000-70,000",
+    website: "https://www.yale.edu"
+  },
+
   // International Universities - UK
   {
     name: "University of Oxford",
@@ -104,7 +167,21 @@ const universityData = [
     tuition: "USD 40,000-55,000",
     website: "https://www.imperial.ac.uk"
   },
-  
+  {
+    name: "University College London (UCL)",
+    country: "United Kingdom",
+    programs: ["Architecture", "Medicine", "Science", "Humanities"],
+    tuition: "USD 35,000-50,000",
+    website: "https://www.ucl.ac.uk"
+  },
+  {
+    name: "London School of Economics (LSE)",
+    country: "United Kingdom",
+    programs: ["Economics", "Politics", "Data Science"],
+    tuition: "USD 30,000-45,000",
+    website: "https://www.lse.ac.uk"
+  },
+
   // International Universities - Canada
   {
     name: "University of Toronto",
@@ -120,7 +197,14 @@ const universityData = [
     tuition: "USD 32,000-45,000",
     website: "https://www.ubc.ca"
   },
-  
+  {
+    name: "McGill University",
+    country: "Canada",
+    programs: ["Medicine", "Law", "Engineering", "Arts"],
+    tuition: "USD 28,000-45,000",
+    website: "https://www.mcgill.ca"
+  },
+
   // International Universities - Australia
   {
     name: "University of Melbourne",
@@ -136,7 +220,14 @@ const universityData = [
     tuition: "USD 28,000-45,000",
     website: "https://www.anu.edu.au"
   },
-  
+  {
+    name: "University of Sydney",
+    country: "Australia",
+    programs: ["Medicine", "Law", "Engineering", "Arts"],
+    tuition: "USD 30,000-48,000",
+    website: "https://www.sydney.edu.au"
+  },
+
   // International Universities - Germany (Affordable!)
   {
     name: "Technical University of Munich",
@@ -152,7 +243,14 @@ const universityData = [
     tuition: "USD 500-3,000 (Very Affordable!)",
     website: "https://www.uni-heidelberg.de"
   },
-  
+  {
+    name: "Ludwig Maximilian University of Munich (LMU)",
+    country: "Germany",
+    programs: ["Humanities", "Medicine", "Natural Sciences"],
+    tuition: "USD 500-3,000",
+    website: "https://www.en.uni-muenchen.de/index.html"
+  },
+
   // International Universities - Asia
   {
     name: "University of Tokyo",
@@ -169,13 +267,20 @@ const universityData = [
     website: "https://www.tsinghua.edu.cn"
   },
   {
-    name: "National University of Singapore",
-    country: "Singapore",
-    programs: ["Engineering", "Business", "Computer Science", "Medicine"],
-    tuition: "USD 25,000-40,000",
-    website: "https://www.nus.edu.sg"
+    name: "KAIST",
+    country: "South Korea",
+    programs: ["Engineering", "Computer Science", "Robotics"],
+    tuition: "USD 4,000-8,000",
+    website: "https://www.kaist.ac.kr"
   },
-  
+  {
+    name: "Seoul National University",
+    country: "South Korea",
+    programs: ["Engineering", "Medicine", "Business"],
+    tuition: "USD 3,000-7,000",
+    website: "https://www.useoul.edu"
+  },
+
   // International Universities - Europe
   {
     name: "ETH Zurich",
@@ -197,6 +302,20 @@ const universityData = [
     programs: ["Literature", "Medicine", "Sciences", "Engineering"],
     tuition: "USD 3,000-8,000",
     website: "https://www.sorbonne-universite.fr"
+  },
+  {
+    name: "KU Leuven",
+    country: "Belgium",
+    programs: ["Engineering", "Medicine", "Humanities"],
+    tuition: "USD 3,000-10,000",
+    website: "https://www.kuleuven.be"
+  },
+  {
+    name: "Trinity College Dublin",
+    country: "Ireland",
+    programs: ["Arts", "Engineering", "Computer Science"],
+    tuition: "USD 12,000-22,000",
+    website: "https://www.tcd.ie"
   }
 ];
 
@@ -225,7 +344,11 @@ function updateUniversityStats(list) {
   const localCount = list.filter(function(u) {
     return u.country === "Eswatini" || u.country === "South Africa" || 
            u.country === "Botswana" || u.country === "Kenya" || 
-           u.country === "Uganda" || u.country === "Ghana";
+           u.country === "Uganda" || u.country === "Ghana" ||
+           u.country === "Zambia" || u.country === "Malawi" ||
+           u.country === "Tanzania" || u.country === "Zimbabwe" ||
+           u.country === "Ethiopia" || u.country === "Nigeria" ||
+           u.country === "Egypt";
   }).length;
   const internationalCount = totalCount - localCount;
   
@@ -265,7 +388,10 @@ function applyFilters() {
       filtered = filtered.filter(function(u) {
         return u.country === "South Africa" || u.country === "Botswana" || 
                u.country === "Kenya" || u.country === "Uganda" || 
-               u.country === "Ghana" || u.country === "Eswatini";
+               u.country === "Ghana" || u.country === "Eswatini" ||
+               u.country === "Zambia" || u.country === "Malawi" ||
+               u.country === "Tanzania" || u.country === "Zimbabwe" ||
+               u.country === "Ethiopia";
       });
     } else if (countryFilter.value === 'international') {
       filtered = filtered.filter(function(u) {

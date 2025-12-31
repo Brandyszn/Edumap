@@ -159,6 +159,55 @@ const scholarships = [
     eligibleFor: "African students for development-focused studies",
     value: "Full tuition + stipend + travel",
     link: "https://www.afdb.org/en/about-us/careers/scholarship-program"
+  },
+  {
+    name: "(INTERNATIONAL) Rhodes Scholarship",
+    country: "United Kingdom",
+    eligibleFor: "Outstanding students from select Commonwealth countries",
+    value: "Full tuition + living allowance for Oxford study",
+    link: "https://www.rhodeshouse.ox.ac.uk/"
+  },
+  {
+    name: "(INTERNATIONAL) Gates Cambridge Scholarship",
+    country: "United Kingdom",
+    eligibleFor: "Exceptional international graduate students",
+    value: "Full tuition + maintenance grant",
+    link: "https://www.gatescambridge.org/"
+  },
+  {
+    name: "(INTERNATIONAL) Knight-Hennessy Scholars",
+    country: "USA",
+    eligibleFor: "Graduate students applying to Stanford",
+    value: "Full tuition + stipend + leadership training",
+    link: "https://knight-hennessy.stanford.edu/"
+  },
+  {
+    name: "(REGIONAL) Beit Trust Scholarships",
+    country: "United Kingdom/Regional",
+    eligibleFor: "Students from Malawi, Zambia, Zimbabwe, Botswana (region-specific)",
+    value: "Full/partial support for regional study",
+    link: "https://www.beittrust.org.uk/"
+  },
+  {
+    name: "(INTERNATIONAL) Mastercard Foundation Scholars Program",
+    country: "International",
+    eligibleFor: "Young African leaders for undergraduate/postgraduate study",
+    value: "Full tuition, accommodation, mentorship",
+    link: "https://mastercardfoundation.org/"
+  },
+  {
+    name: "(INTERNATIONAL) Wellcome International Fellowships",
+    country: "United Kingdom",
+    eligibleFor: "Researchers in health and biomedical sciences",
+    value: "Funding for research training and salary",
+    link: "https://wellcome.org/"
+  },
+  {
+    name: "(INTERNATIONAL) Google Africa Scholarships",
+    country: "International",
+    eligibleFor: "Students pursuing tech and developer skills in Africa",
+    value: "Training, mentorship and partial scholarships",
+    link: "https://buildyourfuture.withgoogle.com/"
   }
 ];
 
