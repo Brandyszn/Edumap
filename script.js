@@ -316,6 +316,152 @@ const universityData = [
     programs: ["Arts", "Engineering", "Computer Science"],
     tuition: "USD 12,000-22,000",
     website: "https://www.tcd.ie"
+  },
+
+  // International Universities - USA (Expanded)
+  {
+    name: "Columbia University",
+    country: "USA",
+    programs: ["Journalism", "Business", "Engineering", "Law"],
+    tuition: "USD 50,000-70,000",
+    website: "https://www.columbia.edu"
+  },
+  {
+    name: "Princeton University",
+    country: "USA",
+    programs: ["Engineering", "Mathematics", "Public Policy"],
+    tuition: "USD 48,000-68,000",
+    website: "https://www.princeton.edu"
+  },
+  {
+    name: "University of Chicago",
+    country: "USA",
+    programs: ["Economics", "Law", "Physical Sciences"],
+    tuition: "USD 50,000-70,000",
+    website: "https://www.uchicago.edu"
+  },
+  {
+    name: "California Institute of Technology (Caltech)",
+    country: "USA",
+    programs: ["Physics", "Engineering", "Computer Science"],
+    tuition: "USD 50,000-65,000",
+    website: "https://www.caltech.edu"
+  },
+  {
+    name: "University of Michigan",
+    country: "USA",
+    programs: ["Engineering", "Business", "Medicine"],
+    tuition: "USD 30,000-50,000",
+    website: "https://www.umich.edu"
+  },
+  {
+    name: "University of Texas at Austin",
+    country: "USA",
+    programs: ["Engineering", "Business", "Computer Science"],
+    tuition: "USD 25,000-45,000",
+    website: "https://www.utexas.edu"
+  },
+  {
+    name: "Georgia Institute of Technology",
+    country: "USA",
+    programs: ["Engineering", "Computer Science", "Architecture"],
+    tuition: "USD 25,000-40,000",
+    website: "https://www.gatech.edu"
+  },
+  {
+    name: "Carnegie Mellon University",
+    country: "USA",
+    programs: ["Computer Science", "Engineering", "Design"],
+    tuition: "USD 45,000-65,000",
+    website: "https://www.cmu.edu"
+  },
+
+  // International Universities - UK (Expanded)
+  {
+    name: "King's College London",
+    country: "United Kingdom",
+    programs: ["Medicine", "Law", "Humanities"],
+    tuition: "USD 30,000-45,000",
+    website: "https://www.kcl.ac.uk"
+  },
+  {
+    name: "University of Edinburgh",
+    country: "United Kingdom",
+    programs: ["Informatics", "Medicine", "Arts"],
+    tuition: "USD 25,000-40,000",
+    website: "https://www.ed.ac.uk"
+  },
+  {
+    name: "University of Manchester",
+    country: "United Kingdom",
+    programs: ["Engineering", "Business", "Social Sciences"],
+    tuition: "USD 22,000-38,000",
+    website: "https://www.manchester.ac.uk"
+  },
+  {
+    name: "University of Warwick",
+    country: "United Kingdom",
+    programs: ["Business", "Engineering", "Mathematics"],
+    tuition: "USD 22,000-36,000",
+    website: "https://warwick.ac.uk"
+  },
+
+  // International Universities - Asia (Expanded)
+  {
+    name: "Peking University",
+    country: "China",
+    programs: ["Law", "Economics", "Computer Science"],
+    tuition: "USD 4,000-7,000",
+    website: "https://english.pku.edu.cn"
+  },
+  {
+    name: "Fudan University",
+    country: "China",
+    programs: ["Business", "Engineering", "Sciences"],
+    tuition: "USD 3,500-6,000",
+    website: "https://www.fudan.edu.cn/en/"
+  },
+  {
+    name: "Hong Kong University (HKU)",
+    country: "Hong Kong",
+    programs: ["Law", "Medicine", "Computer Science"],
+    tuition: "USD 15,000-28,000",
+    website: "https://www.hku.hk"
+  },
+  {
+    name: "Hong Kong University of Science and Technology (HKUST)",
+    country: "Hong Kong",
+    programs: ["Business", "Engineering", "Science"],
+    tuition: "USD 14,000-26,000",
+    website: "https://www.ust.hk"
+  },
+  {
+    name: "Nanyang Technological University (NTU)",
+    country: "Singapore",
+    programs: ["Engineering", "Business", "Computer Science"],
+    tuition: "USD 20,000-35,000",
+    website: "https://www.ntu.edu.sg"
+  },
+  {
+    name: "Indian Institute of Technology Bombay (IIT Bombay)",
+    country: "India",
+    programs: ["Engineering", "Computer Science", "Design"],
+    tuition: "USD 2,000-6,000",
+    website: "https://www.iitb.ac.in"
+  },
+  {
+    name: "Indian Institute of Science (IISc)",
+    country: "India",
+    programs: ["Engineering", "Natural Sciences", "Research"],
+    tuition: "USD 1,500-5,000",
+    website: "https://www.iisc.ac.in"
+  },
+  {
+    name: "National Taiwan University",
+    country: "Taiwan",
+    programs: ["Engineering", "Medicine", "Computer Science"],
+    tuition: "USD 3,000-7,000",
+    website: "https://www.ntu.edu.tw"
   }
 ];
 
