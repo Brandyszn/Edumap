@@ -5,21 +5,14 @@ const universityData = [
     country: "Eswatini",
     programs: ["Agriculture", "Education", "Business", "Engineering", "Health Sciences"],
     tuition: "USD 850-1,400",
-    website: "https://www.uneswa.sz"
+    website: "No website available"
   },
   {
     name: "Eswatini College of Technology",
     country: "Eswatini",
     programs: ["Engineering", "Information Technology", "Applied Sciences"],
     tuition: "USD 600-1,200",
-    website: "https://www.ecot.sz"
-  },
-  {
-    name: "Manzini Institute of Technology",
-    country: "Eswatini",
-    programs: ["Business", "Hospitality", "Engineering"],
-    tuition: "USD 500-1,000",
-    website: "https://www.manzini.edu.sz"
+    website: "No website available"
   },
 
   // Regional African Universities
