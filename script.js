@@ -455,6 +455,141 @@ const universityData = [
     programs: ["Engineering", "Medicine", "Computer Science"],
     tuition: "USD 3,000-7,000",
     website: "https://www.ntu.edu.tw"
+  },
+
+  // New International Universities
+  {
+    name: "Kharkiv National University",
+    country: "Ukraine",
+    programs: ["Science", "Engineering", "Humanities", "Medicine"],
+    tuition: "USD 1,500-3,000",
+    website: "https://karazin.ua"
+  },
+  {
+    name: "Universidad Técnica Federico Santa María",
+    country: "Chile",
+    programs: ["Engineering", "Computer Science", "Business"],
+    tuition: "USD 5,000-12,000",
+    website: "https://usm.cl"
+  },
+  {
+    name: "IESEG School of Management",
+    country: "France",
+    programs: ["Business", "Management", "Economics"],
+    tuition: "USD 8,000-15,000",
+    website: "https://ieseg.fr"
+  },
+  {
+    name: "Sun Yat-sen University",
+    country: "China",
+    programs: ["Medicine", "Engineering", "Business", "Law"],
+    tuition: "USD 3,000-6,000",
+    website: "https://sysu.edu.cn"
+  },
+  {
+    name: "Royal Holloway University of London",
+    country: "United Kingdom",
+    programs: ["Business", "Arts", "Science", "Engineering"],
+    tuition: "USD 25,000-35,000",
+    website: "https://rhul.ac.uk"
+  },
+  {
+    name: "Hunan University",
+    country: "China",
+    programs: ["Engineering", "Business", "Sciences"],
+    tuition: "USD 3,000-5,500",
+    website: "https://www.hnu.edu.cn"
+  },
+  {
+    name: "University of Portsmouth",
+    country: "United Kingdom",
+    programs: ["Engineering", "Business", "Law", "Psychology"],
+    tuition: "USD 15,000-20,000",
+    website: "https://myport.port.ac.uk"
+  },
+  {
+    name: "Académie de Paris",
+    country: "France",
+    programs: ["Education", "Teacher Training"],
+    tuition: "Contact for tuition",
+    website: "https://www.ac-paris.fr/"
+  },
+  {
+    name: "Académie d'Aix-Marseille",
+    country: "France",
+    programs: ["Education", "Teacher Training"],
+    tuition: "Contact for tuition",
+    website: "https://www.ac-aix-marseille.fr/"
+  },
+  {
+    name: "Académie de Créteil",
+    country: "France",
+    programs: ["Education", "Teacher Training"],
+    tuition: "Contact for tuition",
+    website: "https://www.ac-creteil.fr/"
+  },
+  {
+    name: "Marywood University",
+    country: "United States",
+    programs: ["Business", "Arts", "Health Sciences", "Education"],
+    tuition: "USD 28,000-35,000",
+    website: "http://www.marywood.edu"
+  },
+  {
+    name: "University of Petroleum and Energy Studies",
+    country: "India",
+    programs: ["Engineering", "Business", "Energy Sciences"],
+    tuition: "USD 2,000-6,000",
+    website: "https://www.upes.ac.in/"
+  },
+  {
+    name: "Cégep de Saint-Jérôme",
+    country: "Canada",
+    programs: ["General Education", "Pre-university", "Technical Programs"],
+    tuition: "USD 500-2,000",
+    website: "https://www.cstj.qc.ca"
+  },
+  {
+    name: "Lindenwood University",
+    country: "United States",
+    programs: ["Business", "Engineering", "Arts", "Education"],
+    tuition: "USD 18,000-28,000",
+    website: "http://www.lindenwood.edu/"
+  },
+  {
+    name: "DAV Institute of Engineering & Technology",
+    country: "India",
+    programs: ["Engineering", "Computer Science", "Technology"],
+    tuition: "USD 1,500-4,000",
+    website: "http://www.davietjal.org/"
+  },
+  {
+    name: "Lovely Professional University",
+    country: "India",
+    programs: ["Engineering", "Business", "Law", "Medicine"],
+    tuition: "USD 2,500-7,000",
+    website: "http://www.lpu.in/"
+  },
+  {
+    name: "Sullivan University",
+    country: "United States",
+    programs: ["Business", "Hospitality", "Healthcare", "Technology"],
+    tuition: "USD 15,000-25,000",
+    website: "https://sullivan.edu/"
+  },
+  {
+    name: "Florida State College at Jacksonville",
+    country: "United States",
+    programs: ["Engineering", "Business", "Nursing", "Liberal Arts"],
+    tuition: "USD 3,500-8,000",
+    website: "https://www.fscj.edu/"
+  },
+  {
+    name: "Xavier University",
+    country: "United States",
+    programs: ["Business", "Engineering", "Arts & Sciences", "Medicine"],
+    tuition: "USD 35,000-45,000",
+    website: "https://www.xavier.edu/"
   }
 ];
 
