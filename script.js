@@ -5,14 +5,14 @@ const universityData = [
     country: "Eswatini",
     programs: ["Agriculture", "Education", "Business", "Engineering", "Health Sciences"],
     tuition: "USD 850-1,400",
-    website: "No website available"
+    website: ""
   },
   {
     name: "Eswatini College of Technology",
     country: "Eswatini",
     programs: ["Engineering", "Information Technology", "Applied Sciences"],
     tuition: "USD 600-1,200",
-    website: "No website available"
+    website: ""
   },
 
   // Regional African Universities
@@ -465,12 +465,13 @@ function displayUniversities(universities) {
   universities.forEach(function(u) {
     const card = document.createElement("div");
     card.className = "card";
+    const websiteLink = u.website ? `<a href="${u.website}" target="_blank">Visit Website</a>` : '<p style="color: #7f8c8d; font-style: italic;">Website information coming soon</p>';
     card.innerHTML = `
       <h3>${u.name}</h3>
       <p><strong>Country:</strong> ${u.country}</p>
       <p><strong>Programs:</strong> ${u.programs.join(", ")}</p>
       <p><strong>Tuition:</strong> ${u.tuition}</p>
-      <a href="${u.website}" target="_blank">Visit Website</a>
+      ${websiteLink}
     `;
     list.appendChild(card);
   });
